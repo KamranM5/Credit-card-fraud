@@ -12,7 +12,7 @@ for i in range(9999):
   
   res = 0
 
-  text = open('C:\\Users\\Admin\\Desktop\\data.txt', 'a')
+  text = open('data.txt', 'a')
   
   wr = iden + ',' + week_day + ',' + month_week + ',' + summ + ',' + part_of_the_balance + ',' + hour + ':' + minute + '\n'
   text.write(wr)
