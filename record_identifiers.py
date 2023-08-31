@@ -1,7 +1,7 @@
 from time import sleep as sl
 import bib
 print('Analysis...')
-with open('C:\\Users\\Admin\\Desktop\\data.txt') as f:
+with open('data.txt') as f:
   for line in f:
     line = line[:-1:]
     
@@ -41,6 +41,6 @@ with open('C:\\Users\\Admin\\Desktop\\data.txt') as f:
     s = iden + week_day + ',' + month_week + ',' + summ + ',' + part_of_the_balance + ',' + hour + ':' + minute + ',' + res + ',' + result+ '\n'
     
     if result == '+':
-      file = open('C:\\Users\\Admin\\Desktop\\ids.txt', 'a')
+      file = open('ids.txt', 'a')
       file.write(str(iden) + '\n')
 sl(2)
